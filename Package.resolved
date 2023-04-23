@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "swift-docc-plugin",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Kyle-Ye/swift-docc-plugin.git",
+      "state" : {
+        "branch" : "feature/kyle/clang_target_support",
+        "revision" : "106fd09cc69dfa610cb12770f6aee59671aed109"
+      }
+    },
+    {
       "identity" : "swift-docc-symbolkit",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-docc-symbolkit",

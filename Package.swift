@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "DemoKit", targets: ["CDemoKit", "SwiftDemoKit"]),
     ],
     dependencies: [
-        .package(path: "../swift-docc-plugin"),
+        .package(url: "https://github.com/Kyle-Ye/swift-docc-plugin.git", branch: "feature/kyle/clang_target_support"),
     ],
     targets: [
         .target(name: "CDemoKit"),
